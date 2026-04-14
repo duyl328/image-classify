@@ -1,0 +1,26 @@
+# UI 框架
+PyQt6>=6.6.0
+
+# 深度学习运行时（建议用 GPU 版，见下方安装说明）
+torch>=2.2.0
+torchvision>=0.17.0
+
+# CLIP 依赖
+ftfy>=6.1.0
+regex>=2023.12.25
+# CLIP 本体从 GitHub 安装，见安装说明
+
+# 降维 + 聚类
+umap-learn>=0.5.5
+hdbscan>=0.8.33
+
+# 图像处理
+Pillow>=10.2.0
+pillow-heif>=0.15.0
+imagehash>=4.3.1
+
+# 数值计算
+numpy>=1.26.0
+
+# 安全删除（移入回收站，非永久删除）
+send2trash>=1.8.2

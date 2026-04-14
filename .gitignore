@@ -1,0 +1,14 @@
+.venv/
+.idea/
+.claude/
+__pycache__/
+*.py[cod]
+
+model/clip/*.pt
+
+*.db
+*.db-shm
+*.db-wal
+
+dist/
+build/
