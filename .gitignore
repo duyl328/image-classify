@@ -12,3 +12,14 @@ model/clip/*.pt
 
 dist/
 build/
+
+# Local diagnostics and photo review lists
+debug.log
+image_classify_review.txt
+
+# Local environment files (keep shareable examples)
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
